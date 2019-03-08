@@ -1,0 +1,58 @@
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+/* Style the navbar */
+#menu {
+  overflow: hidden;
+  background-color: rgba(212, 42, 30, 0.589);
+}
+
+/* Navbar links */
+#menu a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#menu img{
+  float: right left;
+  width: 60px;
+	height: 50px;
+}
+
+#about img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about{
+  padding: 20px
+}
+
+#playlist iframe{
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+hr{
+  /* Red border */
+  border: 1px solid rgba(216, 29, 29, 0.884);
+}
