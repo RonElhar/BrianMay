@@ -13,8 +13,6 @@
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=70669594863&autoLogAppEvents=1"></script>
   <div id="menu">
     <img src="QueenLogo.png" alt="Queen"></img>
     <a href="#about">About Me</a></li>
@@ -25,7 +23,9 @@
     <a href="#spa">Q&A</a></li>
     <a href="#contact">Contact Me</a></li>
   </div>
-
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=70669594863&autoLogAppEvents=1"></script>
   <section id="about" class="section">
     <br />
     <br />
@@ -110,20 +110,7 @@
   </section>
 
   <section id="like" class="section">
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>(function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your like button code -->
-    <div class="fb-like" data-href="https://ronelhar.github.io/BrianMayWebsite/" data-width="50" data-layout="standard"
-      data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-
+      <div class="fb-like" data-href="https://ronelhar.github.io/BrianMayWebsite/" data-width="50" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
     <br />
   </section>
 
