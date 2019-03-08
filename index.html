@@ -2,18 +2,19 @@
 <html>
 
 <head>
-    <title>Your Website Title</title>
-    <!-- You can use open graph tags to customize link previews.
+  <title>Your Website Title</title>
+  <!-- You can use open graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-  <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
-  <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Your Website Title" />
-  <meta property="og:description"   content="Your description" />
-  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+  <meta property="og:url" content="https://ronelhar.github.io/BrianMayWebsite/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Brian May Website" />
+  <meta property="og:description" content="First website project about Brian May the guitarist of Queen" />
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=70669594863&autoLogAppEvents=1"></script>
   <div id="menu">
     <img src="QueenLogo.png" alt="Queen"></img>
     <a href="#about">About Me</a></li>
@@ -101,29 +102,27 @@
   <section id="playlist" class="section">
     <br />
     <br />
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/?listType=playlist&list=RDEMbHaAxpOZhcVmmF6I3y0siA" frameborder="0" allowfullscreen>
+    <iframe width="720" height="405"
+      src="https://www.youtube.com/embed/?listType=playlist&list=RDEMbHaAxpOZhcVmmF6I3y0siA" frameborder="0"
+      allowfullscreen>
       <hr>
 
   </section>
 
   <section id="like" class="section">
-     <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-  <!-- Your like button code -->
-  <div class="fb-like" 
-    data-href="https://www.your-domain.com/your-page.html" 
-    data-layout="standard" 
-    data-action="like" 
-    data-show-faces="true">
-  </div>
+    <!-- Your like button code -->
+    <div class="fb-like" data-href="https://ronelhar.github.io/BrianMayWebsite/" data-width="50" data-layout="standard"
+      data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 
     <br />
   </section>
