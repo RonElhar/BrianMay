@@ -151,26 +151,17 @@
         <h2>Contact Us</h2>
         <p>Leave us a message:</p>
       </div>
-      <div class="row">
-        <div class="column">
-          <form action="mailto:ronelhar@post.bgu.ac.il">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="country">Country</label>
-            <input type="text" id="country" name="country" placeholder="Your Origin Country">
-            <label for="subject">Subject</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </div>
-      </div>
+      <form action="mailto:ronelhar@post.bgu.ac.il" method="GET">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="Send" value="Submit">
       </form>
-
     </div>
     <br />
     <br />
